@@ -18,7 +18,7 @@ console.log(webView)
 
     <SafeAreaView style={styles.container}>
        <LinearGradient
-    colors={["#F67062","#FC5296" ]}
+    colors={["#F67042","#FC5296" ]}
     style={styles.linearGradient}
   >
     <View style={styles.mainView}>
