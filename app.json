@@ -17,7 +17,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This allows us to use your camera to provide you certain features like uploading your Workfam profile picture, sharing selected photos with your employer and tagging fellow colleagues.",
+        "NSPhotoLibraryUsageDescription": "This allows us to use your photo library to provide you certain features like uploading your Workfam profile picture, sharing selected photos with your employer and tagging fellow colleagues."
+      }
     },
     "android": {
       "adaptiveIcon": {
